@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare-deobfuscator",
+  "version": "1.0.0",
+  "description": "A dynamic deobfuscator for cloudflare antibot obfuscation.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffeelix/cloudflare-deobfuscator.git"
+  },
+  "author": "flusk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffeelix/cloudflare-deobfuscator/issues"
+  },
+  "homepage": "https://github.com/ffeelix/cloudflare-deobfuscator#readme",
+  "dependencies": {
+    "shift-ast": "^7.0.0",
+    "shift-refactor": "^2.0.0"
+  }
+}
