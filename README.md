@@ -3,14 +3,6 @@
 A dynamic deobfuscator for cloudflare's antibot javascript challenge
 
 
-**Before**
-
-![before](before.png)
-
-
-**After**
-
-![after](after.png)
 ## Features
 1) Unconceals String Conceals
 
