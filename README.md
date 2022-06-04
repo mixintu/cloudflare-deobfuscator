@@ -61,28 +61,9 @@ d._cf_chl_opt.cRay + "_"
 ```
 
 ## Usage
+Paste the challenge script into input/main_challenge.js
 
-Change the index.ts to the specific cloudflare script you're trying to deobfuscate
-
-```js
-import { Deobfusactor } from "./deobfuscator";
-
-import fs from 'fs';
-const src = fs.readFileSync('input/challenge.js').toString()
-
-
-
-const session = new Deobfusactor(src)
-
-
-session.deobfuscateInitChallenge()
-
-
-
-fs.writeFileSync("output.js", session.$script.codegen()[0])
-```
-
-
+Run
 ```bash
 npm install
 npm start
