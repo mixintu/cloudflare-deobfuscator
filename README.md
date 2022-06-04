@@ -17,7 +17,7 @@ c('0x19e')
 
 2) Unflattens Control Flow Flattening Protection
 ```js
-_[_[1]] = _[2]
+_[_[1]] = _[1]
 
 
 for (; _[0];) switch (_[_[1]]) {
@@ -34,9 +34,9 @@ for (; _[0];) switch (_[_[1]]) {
 
 }
 // output
+console.log("1")
+console.log("2")
 
-"1"
-"2"
 
 ```
 3) Simplifies Proxy Binary Functions
